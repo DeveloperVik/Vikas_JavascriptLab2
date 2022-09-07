@@ -1,0 +1,93 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+#mainBody
+{
+    border: 3px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:250px
+}
+
+#questionBox
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size:x-large;
+    border: 2px solid black;
+    margin-top:50px;
+    height:60px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+#answerGrid
+{
+    width: 80%;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: 47% 47%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    
+}
+
+.answerBox
+{
+    text-align: center;
+    border: 2px solid black;
+    height:40px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+#buttonGrid
+{
+    margin-top: 30px;
+    margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+#QuestionNumber
+{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+#resultGrid
+{
+    width: 80%;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: 47% 47%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}

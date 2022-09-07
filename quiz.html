@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script type="text/javascript" src="quiz.js"></script>
+</head>
+<body onload="startQuiz()">
+
+
+
+    <div id="mainBody">
+        <div id = "QuestionNumber"><p id = "number"> </p></div>
+
+        <div id = "questionBox">
+              <p id  = "question"></p>
+        </div>
+        <div id = "answerGrid">
+            <button id = "option1" class  = "answerBox">
+            <button id = "option2" class  = "answerBox">
+            <button id = "option3" class  = "answerBox">
+            <button id = "option4" class  = "answerBox">
+        </div>
+        <div id ="buttonGrid" onclick="checkAnswer()">
+            <button id ="submitBtn">Submit and Next</button>
+        </div>
+
+        <div id = "resultGrid">
+            <p id = "correctAnswer"></p>
+            <p id = "incorrectAnswer"></p>
+        </div>
+    </div>
+</body>
+</html>
